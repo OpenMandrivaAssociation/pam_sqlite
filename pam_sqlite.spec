@@ -13,6 +13,7 @@ License:	GPL
 Group:		System/Libraries
 BuildRequires:	pam-devel
 BuildRequires:	sqlite-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 pam_sqlite allows developers to authenticate users against a table
