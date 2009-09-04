@@ -1,6 +1,6 @@
 %define name	pam_sqlite
 %define version 0.3
-%define release 4
+%define release 5
 
 Summary:	SQLite authentication for PAM
 Name:		%{name}
