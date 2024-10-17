@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%mkrel %{release}
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		pam_sqlite-nullundeclared.patch
-URL:		http://www.edin.dk/pam_sqlite/
+URL:		https://www.edin.dk/pam_sqlite/
 License:	GPL
 Group:		System/Libraries
 BuildRequires:	pam-devel
