@@ -11,6 +11,11 @@ Patch0:		pam_sqlite-nullundeclared.patch
 URL:		https://www.edin.dk/pam_sqlite/
 License:	GPL
 Group:		System/Libraries
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pam-devel
 BuildRequires:	sqlite-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
