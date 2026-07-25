@@ -1,11 +1,11 @@
 %define name	pam_sqlite
 %define version 0.3
-%define release 6
+%define release 7
 
 Summary:	SQLite authentication for PAM
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel %{release}
+Release:	%{release}.1
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		pam_sqlite-nullundeclared.patch
 URL:		https://www.edin.dk/pam_sqlite/
